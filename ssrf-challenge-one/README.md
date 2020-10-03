@@ -1,7 +1,7 @@
 # SSRF Challenge One
 
 
-The following challenge a bit of scripting to escalate an internal misconfiguration to full-read SSRF.
+The following challenge involves a bit of scripting to escalate an internal misconfiguration to full-read SSRF.
 
 ### Objectives
 
