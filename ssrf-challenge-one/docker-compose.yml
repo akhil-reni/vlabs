@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  grafana:
+    image: grafana/grafana:6.7.3
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_SERVE_FROM_SUB_PATH=true
+
+    ports:
+      - 3000:3000
+    expose:
+      - 3000
+
+  app:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
+    links:
+      - grafana
