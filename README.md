@@ -1,4 +1,4 @@
-# Vulnerable labs
+# Vulnerable labsx
 
 A repo to maintain a history of vulnerable labs developed internally at WeSecureApp.
 
