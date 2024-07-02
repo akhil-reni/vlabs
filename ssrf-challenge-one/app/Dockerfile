@@ -1,5 +1,5 @@
 # Pull base image
-FROM python:3.8.2-slim
+FROM python:3.12.4-slim
 
 COPY . /usr/src/app
 
